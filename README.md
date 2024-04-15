@@ -28,20 +28,20 @@ The predictor model in this repository is designed to predict various parameters
 - `TechnodePackage.py`: Python script containing the code for predicting parameters related to technode size.
 ## Model Accuracies
 
-| Parameter                            | Accuracy |
-|--------------------------------------|----------|
-| Read Latency                         | 83.53%   |
-| Read Dynamic Energy                  | 88.51%   |
-| Leakage Power                        | 90.39%   |
-| Leakage Energy                       | 85.03%   |
-| Buffer Latency                       | 96.78%   |
-| Buffer Read Dynamic Energy           | 98.62%   |
-| IC Latency                          | 88.45%   |
-| IC Read Dynamic Energy               | 91.29%   |
-| Energy Efficiency TOPS/W            | 98.17%   |
-| Throughput TOPS                     | 96.51%   |
-| Throughput FPS                      | 97.27%   |
-| Compute Efficiency TOPS/mm^2        | 95.89%   |
+| Parameter                            | Accuracy For DenseNet | Accuracy For VGG8 |
+|--------------------------------------|-----------------------|-------------------|
+| Read Latency                         | 83.53%                | 82.86%            |
+| Read Dynamic Energy                  | 88.51%                | 92.13%            |
+| Leakage Power                        | 90.39%                | 90.27%            |
+| Leakage Energy                       | 85.03%                | 87.41%            |
+| Buffer Latency                       | 96.78%                | 90.99%            |
+| Buffer Read Dynamic Energy           | 98.62%                | 97.88%            |
+| IC Latency                          | 88.45%                | 85.65%            |
+| IC Read Dynamic Energy               | 91.29%                | 91.19%            |
+| Energy Efficiency TOPS/W            | 98.17%                | -                 |
+| Throughput TOPS                     | 96.51%                | -                 |
+| Throughput FPS                      | 97.27%                | -                 |
+| Compute Efficiency TOPS/mm^2        | 95.89%                | -                 |
 ## Usage
 
 1. Clone the repository to your local machine:
