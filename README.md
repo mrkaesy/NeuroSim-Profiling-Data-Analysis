@@ -26,7 +26,22 @@ The predictor model in this repository is designed to predict various parameters
 - `ReadDyanmicEnergyDenseNet40.py`: Python script containing the code for predicting Read Dynamic Energy using DenseNet40.
 - `ReadDyanmicEnergyVGG8.py`: Python script containing the code for predicting Read Dynamic Energy using VGG8.
 - `TechnodePackage.py`: Python script containing the code for predicting parameters related to technode size.
+## Model Accuracies
 
+| Parameter                            | Accuracy |
+|--------------------------------------|----------|
+| Read Latency                         | 83.53%   |
+| Read Dynamic Energy                  | 88.51%   |
+| Leakage Power                        | 90.39%   |
+| Leakage Energy                       | 85.03%   |
+| Buffer Latency                       | 96.78%   |
+| Buffer Read Dynamic Energy           | 98.62%   |
+| IC Latency                          | 88.45%   |
+| IC Read Dynamic Energy               | 91.29%   |
+| Energy Efficiency TOPS/W            | 98.17%   |
+| Throughput TOPS                     | 96.51%   |
+| Throughput FPS                      | 97.27%   |
+| Compute Efficiency TOPS/mm^2        | 95.89%   |
 ## Usage
 
 1. Clone the repository to your local machine:
